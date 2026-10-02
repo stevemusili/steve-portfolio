@@ -124,7 +124,49 @@ span {
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+    font-size: 16px;
 }
 
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #081b20;
+}
+.projects h2 {
+    font-size: 55px;
+    text-align: center;
+}
 
+#projects-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+    justify-content: center;
+}
+.project-card {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #081b20;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 5px #ffa200;
+    transition: 0.3s ease-in-out;
+    gap: 10px;
+    max-width: 500px;
+}
+
+.project-card:hover {
+    box-shadow: 0 0 15px #ffa200,
+                0 0 25px #ffa200;
+    transform:scale(1.05);
+}
 
