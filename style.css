@@ -63,10 +63,10 @@ span {
     flex-direction: column;
 }
 .home-content h1 {
-    font-size: 50px;
+    font-size: 55px;
 }
 
-.home-content h2 {
+.home-content h3 {
     font-size: 35px;
 }
 
@@ -95,4 +95,36 @@ span {
     background-color: #081b20;
     border: 1px solid #ffa200;
 }
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+    background-color: #121a1d;
+    height: 100vh;
+    flex-direction: column;
+    color: white;
+}
+
+.testimonials h2 {
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+#testimonials-list{
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#testimonials-list li {
+    background-color: #ffa200;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
 
