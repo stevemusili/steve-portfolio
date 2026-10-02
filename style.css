@@ -9,6 +9,7 @@
 
 body {
     background-color: #081b20;
+    color: white;
 }
 
 .header {
@@ -46,5 +47,52 @@ span {
 
 .navbar a:hover {
     color: #fbb02d;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.home-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.home-content h1 {
+    font-size: 50px;
+}
+
+.home-content h2 {
+    font-size: 35px;
+}
+
+.home-content p {
+    font-size: 16px;
+}
+
+.home-content .btn {
+    border: none;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    padding: 10px 20px;
+    background-color: #ffa200;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.home-content .btn a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.home-content .btn:hover {
+    background-color: #081b20;
+    border: 1px solid #ffa200;
 }
 
