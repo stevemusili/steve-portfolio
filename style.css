@@ -205,3 +205,31 @@ span {
     background-color: black;
     border: 1px solid #ffa200;
 }
+
+@media (max-width: 1283px) {
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        padding-right: 40px;
+        padding-left: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-bottom-left-radius: 20px;
+        border-left: 1px solid #ffa200;
+        border-bottom: 1px solid #ffa200;
+        display: block;
+    }
+    .navbar a {
+        display: block;
+        margin: 3rem 0;
+    }
+
+    .home {
+        margin: 60px 0;
+    }
+
+    .home-content {
+        
+    }
+
+}
