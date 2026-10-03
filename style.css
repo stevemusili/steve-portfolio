@@ -206,7 +206,7 @@ span {
     border: 1px solid #ffa200;
 }
 
-@media (max-width: 1283px) {
+@media (max-width: 768px) {
     .navbar {
         position: absolute;
         top: 100%;
@@ -221,7 +221,8 @@ span {
     }
     .navbar a {
         display: block;
-        margin: 3rem 0;
+        margin: 2rem 0;
+        font-size: 16px;
     }
 
     .home {
@@ -229,7 +230,26 @@ span {
     }
 
     .home-content {
-        
+        align-items: center;
+        text-align: center;
     }
+
+    .home-content h1 {
+        font-size: 40px;
+    }
+
+    .home-content h3 {
+        font-size: 25px;
+    }
+
+    .home-content p {
+        font-size: 14px;
+    }
+
+    .testimonials h2 {
+        font-size: 30px;
+    }
+
+
 
 }
