@@ -101,7 +101,7 @@ span {
     justify-content: center;
     align-items: center ;
     text-align: center;
-    background-color: #121a1d;
+    background-color: black;
     height: 100vh;
     flex-direction: column;
     color: white;
@@ -251,8 +251,25 @@ span {
     }
 
     #testimonials-list {
-        padding-right: 40px;
-        padding-left: 40px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    #testimonials-list li {
+        font-size: 14px;
+    }
+
+    .projects h2 {
+        font-size: 35px;
+    }
+
+    #projects-container {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .project-card {
+        font-size: 14px;
     }
 
 
