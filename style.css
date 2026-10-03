@@ -172,7 +172,7 @@ span {
 
 .contact {
     display: flex;
-    background-color: rgb(13, 12, 12);
+    background-color: black;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -180,13 +180,14 @@ span {
     flex-direction: column;
 }
 
-.contact-content h3 {
-    font-size: 50px;
+.contact h2 {
+    font-size: 55px;
 }
 
 .contact-content p {
     font-size: 20px;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .contact a {
@@ -246,6 +247,14 @@ span {
         font-size: 14px;
     }
 
+    .home-content .btn {
+        padding: 5px 10px;
+    }
+
+    .home-content .btn a {
+        font-size: 14px;
+    }
+
     .testimonials h2 {
         font-size: 35px;
     }
@@ -272,6 +281,16 @@ span {
         font-size: 14px;
     }
 
+    .contact h2 {
+        font-size: 35px;
+    }
 
+    .contact-content p {
+        font-size: 16px;
+    }
 
+    .contact a {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
 }
