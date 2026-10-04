@@ -1,8 +1,8 @@
 # Steve Portfolio
-A responsive personal portfolio website showing testimonials, projects, and contact details.
+A responsive personal portfolio website showcasing an introduction about me, testimonials, projects, and contact details.
 
 ## Live Demo Link
-
+[View my portfolio on GitHub pages](https://stevemusili.github.io/steve-portfolio/)
 
 
 ## Features
