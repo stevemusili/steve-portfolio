@@ -34,3 +34,6 @@ cd steve-portfolio
 ```
 
 3. Open 'index.html' in your browser.
+
+## What I Learned
+Through this project, I have learned how to come up with a portfolio website using HTML and CSS. I have also learned how to use JavaScript arrays, objects, and loops to generate a list of testimonials and project cards on the webpage.
