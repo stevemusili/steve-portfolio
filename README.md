@@ -28,7 +28,7 @@ git clone https://github.com/stevemusili/steve-portfolio.git
 
 2. Open the project folder.
 
-```
+```bash
 cd steve-portfolio
 
 ```
@@ -37,3 +37,8 @@ cd steve-portfolio
 
 ## What I Learned
 Through this project, I have learned how to come up with a portfolio website using HTML and CSS. I have also learned how to use JavaScript arrays, objects, and loops to generate a list of testimonials and project cards on the webpage.
+
+## License
+Copyright (c) 2026 Steve Musili
+
+This project is licensed under the [MIT License](LICENSE).
